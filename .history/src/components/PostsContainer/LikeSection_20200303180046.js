@@ -14,9 +14,10 @@ const LikeSection = props => {
         </div>
         <div className="like-section-wrapper">
           <i className="far fa-comment" />
+          <p className="like-number">{props.likes} likes </p>
         </div>
-        <p className="like-number">{props.likes} likes </p>
       </div>
+    
     </div>
   )
 };
