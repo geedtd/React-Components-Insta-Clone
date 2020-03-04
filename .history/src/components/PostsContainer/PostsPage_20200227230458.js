@@ -4,8 +4,6 @@ import React from "react";
 import Post from "./Post";
 import "./Posts.css";
 // import data 
-import dummyData from "../../dummy-data";
-console.log(dummyData)
 
 const PostsPage = () => {
   // set up state for your data
